@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#div1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+   
+
+}
+#container{
+    background-color: rgba(179, 42, 7, 0.781);
+    /* background: linear-gradient(to top,#33ccff 0% , #ff99cc 100%); */
+    width: 100%;
+    height: 520px;
+    text-align: center;
+}
+#bjp{
+    margin-left: 60px;
+    width: 300px;
+    height: 300px;
+}
+#bjp img{
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+#congress{
+    margin-left: 60px;
+    width: 300px;
+    height: 300px;
+}
+#congress img{
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+#mns{
+    margin-left: 60px;
+    width: 300px;
+    height: 300px;
+}
+#mns img{
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+
+#mns,#bjp,#congress{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+button{
+    background-color: blue;
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 200px;
+    outline: none;
+    border: none;
+    
+}
+#res{
+    background-color: blue;
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 80%;
+    padding: 10px;
+    font-size: 26px;
+
+}
+button:hover{
+    background: linear-gradient(to bottom,hsl(93, 72%, 39%) 0% , #c44308 100%);
+    color: black;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+#res:hover{
+    background-color: rgba(600, 200, 500, 0.8);
+    color: black;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+#resultSecton{
+    background: linear-gradient(to bottom,#922323 0% , #2b1f1f 100%);
+    padding-top: 15px;
+    width: 100%;
+    height: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    
+    
+}
+#resultSecton p{
+    display: inline-block;
+    margin-left: 80px;
+    color: white;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    /* background-color: aliceblue; */
+    padding: 10px;
+    
+}
+#finalRes{
+    /* background: linear-gradient(to bottom,#33ccff 0% , #ff99cc 100%); */
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-style: oblique;
+    
+}
+button a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+button a:hover{
+    color: black;
+}
+#finalRes h2{
+    margin: 20px;
+}

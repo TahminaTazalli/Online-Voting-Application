@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="./main.js"></script>
+    
+</head>
+
+<body>
+    <div id="div1">
+        <h1 id="head">Online Voting Sytem</h1>
+        <marquee behavior="" direction="ltr">Press the below any one button to your favourite leader</marquee>
+    </div>
+    <div id="resultSecton">
+        <p id="bjpRes">Total vote BJP</p>
+        <p id="congRes">Total vote Congress</p>
+        <p id="mnsRes">Total vote MNS</p>
+        <p id="overAllVotes">OverAll Votes</p>
+       
+    </div>
+    <div id="container">
+        <div id="bjp">
+            <img src="./bjo logo1.png" alt=" bjp logo"><br><br>
+            <button onclick="bjpfun()">Vote for BJP</button>
+        </div>
+
+
+        <div id="congress">
+            <img src="./congress logo.png" alt="congress logo"><br><br>
+            <button onclick="congressfun()">Vote for Congress</button>
+        </div>
+
+
+        <div id="mns">
+            <img src="./mns logo.jpg" alt="mns ologo"><br><br>
+            <button onclick="mnsfun()">Vote for MNS</button>
+        </div>
+
+        <button onclick="result()" id="res"><a href="#finalRes">Result</a></button>
+    </div>
+    <div id="finalRes">
+        <h2><ins>Result</ins></h2>
+        <p id="show"></p>
+    </div>
+</body>
+
+</html>
